@@ -1,5 +1,3 @@
-// xdg-open "/home/ellenor/Desktop/Assignment embedded systems/Assignment Ellenor Vestin2/build/index.html"
-
 #include "bsp.h"
 #include "button.h"
 #include "unity.h"
