@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-#define BUTTON_UNINITITIALIZED (0U)
+#define BUTTON_UNINITIALIZED (0U)
 #define BUTTON_FALLING_EDGE (1U)
 #define BUTTON_RISING_EDGE (2U)
 #define BUTTON_RELEASED (3U)
