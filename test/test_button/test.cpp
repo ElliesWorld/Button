@@ -16,7 +16,7 @@ void tearDown(void)
 
 void test_button_uninitialized(void)
 {
-    TEST_ASSERT_EQUAL_UINT8(BUTTON_UNINITITIALIZED, button_get_state());
+    TEST_ASSERT_EQUAL_UINT8(BUTTON_UNINITIALIZED, button_get_state());
 }
 
 void test_button_initialized(void)
