@@ -2,7 +2,7 @@
 #include "button.h"
 
 static uint8_t button_pin = 0;
-static uint8_t current_state = BUTTON_UNINITITIALIZED;
+static uint8_t current_state = BUTTON_UNINITIALIZED;
 
 
 void button_init(uint8_t pin)
@@ -14,7 +14,7 @@ void button_init(uint8_t pin)
 
 void button_update_state()
 {
-    if (current_state == BUTTON_UNINITITIALIZED)
+    if (current_state == BUTTON_UNINITIALIZED)
     {
         return; 
     }
